@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>app组件</div>
+  <div class="box">app组件</div>
 </template>
 
-<style scoped></style>
+<style scoped lang="less"></style>
