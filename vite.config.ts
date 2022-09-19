@@ -1,9 +1,10 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import path from "path";
+import vueSetupExtend from "vite-plugin-vue-setup-extend";
 
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [vue({ reactivityTransform: true }), vueSetupExtend()],
   // 配置路径，使得项目可以使用@
   resolve: {
     alias: {

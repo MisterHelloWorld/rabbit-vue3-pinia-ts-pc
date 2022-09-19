@@ -1,7 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="box">app组件</div>
+  <!-- 一级路由出口 -->
+  <router-view></router-view>
 </template>
 
 <style scoped lang="less"></style>
